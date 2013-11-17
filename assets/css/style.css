@@ -1,0 +1,67 @@
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+/************  PREVIEW CSS ********************/
+
+#slide_wrap {
+  width: 750px;
+  border: 1px solid #ccc;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-item img {
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  position: absolute;
+}
+
+.slide-item {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+
+.pic-link {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  z-index: 99999999;
+  border: 1px solid transparent;
+  background: url('assets/img/blank.png');
+}
+
+.slide-text {
+  background: #333;
+  position: absolute;
+  width: 450px;
+  height: 150px;
+  display: none;
+overflow: hidden;
+  color: #ccc;
+  font-size: 13px;
+  font-family: tahoma;
+}
+
+
+.slide-text p{
+  padding:15px;
+  letter-spacing: .5px
+}
+
+#overlay {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 99999;
+  background: #fff;
+  display: none;
+  opacity: .8;
+}
